@@ -1,0 +1,23 @@
+/* universal selectors  */
+* {
+    margin: 0;
+    padding:0;
+}
+
+/* element selectors*/
+body {
+    background-color: beige;
+    color: brown;
+
+}
+
+/* class selectors */
+.bg-green {
+    background-color: forestgreen;
+    color: beige;
+}
+
+/* id selectors */
+#contact {
+    background-color: lightpink;
+}

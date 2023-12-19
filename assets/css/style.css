@@ -8,16 +8,56 @@
 body {
     background-color: beige;
     color: brown;
-
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 /* class selectors */
-.bg-green {
-    background-color: forestgreen;
+.header {
+    background-color: darkgreen;
     color: beige;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: right;
+    border-bottom: 10px solid peachpuff;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    
 }
-
-/* id selectors */
-#contact {
-    background-color: lightpink;
+li {
+    display: inline;
+    padding: 15px;
+}
+.section {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 40px;
+}
+img {
+    padding: 15px;
+}
+.section h1 {
+    font-size: 35px;
+    padding: 10px;
+}
+.contact {
+    background-color: peachpuff;
+    color: brown;
+    text-align: center;
+    border-top: 2px solid goldenrod;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px;
+}
+.contact-2 {
+    max-width: 300px;
+    margin: 25px auto;
+    border: 3px solid goldenrod;
+    border-radius: 15px;
+    padding: 5px;
+}
+.footer {
+    background-color: darkgreen;
+    border-bottom: 10px solid brown;
+    color: beige;
+    padding: 15px;
 }
